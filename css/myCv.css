@@ -1,0 +1,29 @@
+<!-- HTML/BODY
+================================================== -->
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    overflow: hidden;
+    /*  Disable scrollbars */
+    display: block;
+    cursor: crosshair;
+    /* No floating content on sides */  
+}
+
+.banner{
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+    justify-content: center !important;
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
+
+.more-pens {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 10;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/cityLondon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+  /*background: -moz-radial-gradient(center, ellipse cover, #edf3f8 1%, #25292d 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #edf3f8 1%, #25292d 100%);
+  background: radial-gradient(ellipse at center, #edf3f8 1%, #25292d 100%);*/
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf3f8', endColorstr='#dee3e8',GradientType=1 );
+}
+
+.pentahedron {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  fill: #3E82F7;
+}
+
+.point {
+  fill: #8491A3;
+}
+
+.rhombus {
+  fill: #2DA94F;
+  stroke: #2DA94F;
+}
+
+.x {
+  fill: #FDBD00;
+}
+
+.circle {
+  fill: #ED412D;
+}
+
+svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  transform: translateZ(0px);
+}

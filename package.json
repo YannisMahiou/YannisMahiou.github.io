@@ -1,0 +1,22 @@
+{
+  "name": "cv-gabin",
+  "version": "1.0.0",
+  "description": "CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabinSalabert/GabinSalabert.github.io.git"
+  },
+  "author": "Gabin Salabert",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/GabinSalabert/GabinSalabert.github.io/issues"
+  },
+  "homepage": "https://github.com/GabinSalabert/GabinSalabert.github.io#readme",
+  "dependencies": {
+    "brusher": "^0.1.4"
+  }
+}

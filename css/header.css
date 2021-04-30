@@ -1,0 +1,112 @@
+header:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+header .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: 85%;
+   padding-bottom: 30px;s
+   text-align: center;
+}
+
+header .banner-text { width: 100%; }
+header .banner-text h1 {
+   font: 90px/1.1em 'opensans-bold', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+header .banner-text h3 {
+   font: 18px/1.9em 'librebaskerville-regular', serif;
+   /*text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;*/
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   color: white;
+   background: transparent;
+   margin: 0 auto;
+   width: 70%;
+}
+
+
+header .banner-text h3 span,
+header .banner-text h3 a {
+   color: #fff;
+}
+header .banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: #2F2D2E;
+   border-color: rgba(150, 150, 150, .1);
+}
+
+/* header social links */
+header .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
+.fa-twitter{
+  color: #00aced !important;
+  font-size: 30pt;
+}
+
+.fa-linkedin{
+  color: #007bb6 !important;
+  font-size: 30pt;
+}
+
+.fa-instagram{
+  color: #f2cd92 !important;
+  font-size: 30pt;
+}
+
+.fa-pinterest{
+  color: #cb2027 !important;
+  font-size: 30pt;
+}
+
+.fa-github{
+  color: white !important;
+  font-size: 30pt;
+}
+
+header .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+
+header .social li a { 
+  color: #E96906; 
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+header .social li a:hover { color: #11ABB0; }
+
+/* scrolldown link */
+header .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   display: block;
+   font-size: 42px;
+   color: #525252;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+header .scrolldown a:hover { color: #11ABB0; }
+#etudiant{
+   font: 30px/1.1em 'opensans-bold', sans-serif;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   color: #E96906;
+}
